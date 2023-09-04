@@ -1,0 +1,11 @@
+import math
+c = float(input('Digite o valor do cateto:'))
+ca = float(input('Digite o valor do cateto adjacente:'))
+h = math.hypot(c, ca)
+print('A hipotenusa vai medir {:.2} '.format(h))
+
+
+'''co = float(input('Digite o valor do cateto oposto:')
+ca = float(imput('Digite o valor do cateto adjacente')
+h = (co**2 + ca**2) **(1/2)
+print('O valor da hipotenusa é de {:.2f}'.fomart(h))'''
