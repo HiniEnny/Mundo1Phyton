@@ -1,0 +1,24 @@
+#Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
+n = int(input('Digite o número que deseja a tabuada:'))
+a = 0*n
+b = 1*n
+c = 2*n
+d = 3*n
+e = 4*n
+f = 5*n
+g = 6*n
+h = 7*n
+i = 8*n
+j = 9*n
+print('-'*12)
+print('0 x {} = {:2}'.format(n,a))
+print('1 x {} = {:2}'.format(n,b))
+print('2 x {} = {:2}'.format(n,c))
+print('3 x {} = {:2}'.format(n,d))
+print('4 x {} = {:2}'.format(n,e))
+print('5 x {} = {:2}'.format(n, f))
+print('6 x {} = {:2}'.format(n,g))
+print('7 x {} = {:2}'.format(n,h))
+print('8 x {} = {:2}'.format(n, i))
+print('9 x {} = {:2}'. format(n,j))
+print('-'*12)
