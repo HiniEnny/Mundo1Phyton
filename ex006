@@ -1,0 +1,7 @@
+# crie um algoritmo que mostre o seu dobro, o tribo e a sua raiz quadrada
+v = int(input('Digite um valor:'))
+d = v*2
+t = v*3
+r = v**(1/2)
+print('O dobro de {} vale {}'.format(v,d))
+print('O triplo de {} vale {} \n A raiz quadra de {} vale {:.2f}.'.format(v, t, v, r))
