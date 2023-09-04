@@ -1,0 +1,10 @@
+import math
+v = float(input('Digite o ângulo que deseja:'))
+
+v_radianos = math.radians(v)  #converte o angulo em radianos
+seno = math.sin(v_radianos)
+cos = math.cos(v_radianos)
+tan = math.tan(v_radianos)
+print('O ângulo de {} tem o seno de {:.2f}'.format(v,seno))
+print('O angulo de {} tem o cosseno de {:.2f}'.format(v,cos))
+print('O angulo de {} tem a tangente de {:.2f}'.format(v,tan))
