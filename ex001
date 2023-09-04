@@ -1,0 +1,3 @@
+#Escreva uma mensagem que mostre na tela
+msg = ('Olá Mundo!')
+print(msg)
