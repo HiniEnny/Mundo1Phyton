@@ -1,0 +1,4 @@
+#Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome 'Santos'.
+c = str(input('Diga o nome da cidade aonde você nasceu:'))
+n = 'Santos' in c
+print(n)
