@@ -1,0 +1,3 @@
+#Escreva um programa que receba o nome e mostre o nome na tela
+nome = input("Qual é seu nome?")
+print("Seja bem-vindo, {}!". format(nome))
