@@ -1,0 +1,3 @@
+# crie um programa que leia Quanto dinheiro tem uma pessoa na carteira e mostre quantos dolares ela pode comprar , dolar a 3,27
+d = float(input('Me diga quanto dinheiro você tem na carteira:R$'))
+print('Você pode comprar U$${:.2f} dolares'.format(d/3.27))
