@@ -1,0 +1,14 @@
+#escreva uma programa que leia em metro e que converta para km, hctômetro , decametro, decimetro, centrimetro, milimetros
+m = float(input('Digite o valor em metros que queria converter:'))
+k = m/1000
+h = m/100
+d = m/10
+dcm = m*10
+c = m*100
+mm = m*1000
+print('{} km'.format(k))
+print('{} hectometro'.format(h))
+print('{} decametro'.format(d))
+print('{} decimetro'.format(dcm))
+print('{} centimetro'.format(c))
+print('{} milimetro'.format(mm))
