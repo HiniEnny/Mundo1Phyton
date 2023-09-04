@@ -1,0 +1,6 @@
+'''import math
+n = float(input('Digite um numero:'))
+print('O valor digitado foi {} e sua valor inteira é {}'.format(n,math.trunc(n)))'''
+
+n = float(input('Digite um número:'))
+print('O valor {} tem o valor inteiro de {}'.format(n , int(n)))
